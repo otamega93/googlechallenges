@@ -12,4 +12,3 @@ for cases in range(n):
         for pointer in range(iterations+1, l):
             if p[iterations] + p[pointer] == c:
                 print("Case #" + str(cases + 1) + ": " + str(iterations + 1) + " " + str(pointer + 1))
-                #test
